@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	display: flex;
+	background-color: darksalmon;
+	padding: 3em;
+}
+
+p::target {
+	background-color: chocolate;
+}
